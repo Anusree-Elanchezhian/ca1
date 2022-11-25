@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:400%;
+    padding: 0px 100px 0px 100px;
+    margin-top: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+form{
+    font-family: sans-serif;
+    font-weight: 500;
+    background-color:antiquewhite ;
+    opacity: 0.8;
+    border: 1px solid rgb(131, 130, 130);
+    padding: 50px 90px;
+    margin:30px 400px;
+    box-shadow: 6px 6px rgb(189, 188, 188);
+}
+input[type=text]{
+    font-family: sans-serif;
+    font-weight:bold;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: rgb(131, 130, 130);
+    height: 40px;
+    width: 100%;
+}
+input[type=password ]{
+    font-family: sans-serif;
+    font-weight:bold;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 5px;
+    border-color:  rgb(131, 130, 130);
+    height: 40px;
+    width: 100%;
+}
+input[type=submit]{
+    box-sizing: border-box;
+    color: black;
+    background-color: rgb(0, 225, 255);
+    padding: 5px;
+    width: 20%;
+    height: 50px;
+    border: 1px solid lightgreen;
+    cursor: pointer;;
+}
+.errorMsg{
+   color: red;
+   border-color: red;
+}
